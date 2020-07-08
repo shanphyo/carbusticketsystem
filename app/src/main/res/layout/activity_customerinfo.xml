@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mainColor1"
+    android:orientation="vertical"
+    tools:context=".Activity.customerinfo">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/mainColor2"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="5dp"
+        android:paddingRight="45dp"
+
+        >
+
+        <TextView
+            android:id="@+id/back_arrow"
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/ic_arrow_back_black_24dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="20dp"
+            android:text="Fill Your Information"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/one"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="20dp"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/ciet_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/rtxt_logo"
+                android:layout_margin="10dp"
+                android:background="@drawable/edit_background"
+                android:hint="Full Name"
+                android:inputType="text"
+                android:textColor="@color/alltext"
+                android:maxLines="1"
+                android:padding="15dp"
+                />
+
+            <EditText
+                android:id="@+id/ciet_phno"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/rtxt_logo"
+                android:layout_margin="10dp"
+                android:background="@drawable/edit_background"
+                android:hint="Phone Number"
+                android:inputType="phone"
+                android:maxLines="1"
+                android:padding="15dp"
+                android:textColor="@color/alltext" />
+
+            <EditText
+                android:id="@+id/ciet_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/edit_background"
+                android:hint="Email                 @gmail.com"
+                android:inputType="textEmailAddress"
+                android:maxLines="1"
+                android:padding="15dp"
+                android:textColor="@color/alltext" />
+
+            <EditText
+                android:id="@+id/ciet_nrc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/edit_background"
+                android:hint="9/takana(Naing)-"
+                android:inputType="text"
+                android:maxLines="1"
+                android:padding="15dp"
+                android:paddingLeft="20dp"
+                android:textColor="@color/alltext" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="10dp"
+                android:background="@drawable/btn_background"
+                android:layout_margin="10dp"
+
+                >
+
+                <TextView
+                    android:id="@+id/citv_type"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/edit_background"
+                    android:padding="15dp"
+                    android:paddingLeft="20dp"
+android:gravity="center"
+                    android:paddingTop="10dp"
+                    android:text="JJ"
+                    android:textColor="@color/alltext"
+
+                    android:textSize="20dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:id="@+id/citv_from"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/edit_background"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:text="Yangon"
+                        android:textColor="@color/alltext"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:id="@+id/citv_to"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/edit_background"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:text="Mandalay"
+                        android:textColor="@color/alltext"
+                        android:textSize="20dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:id="@+id/citv_date"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/edit_background"
+                        android:gravity="center"
+                        android:textColor="@color/alltext"
+                        android:padding="5dp"
+                        android:text="2020-01-28"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:id="@+id/citv_time"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/edit_background"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:textColor="@color/alltext"
+                        android:text="09:30 PM"
+                        android:textSize="20dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:id="@+id/citv_nopassenger"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/edit_background"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="20"
+                        android:textColor="@color/alltext"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:id="@+id/citv_price"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/edit_background"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="Mmk"
+                        android:textColor="@color/alltext"
+                        android:textSize="20dp" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/citv_seatno"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/edit_background"
+                    android:maxLines="1"
+                    android:minLines="1"
+                    android:padding="10dp"
+                    android:text="Seat Number"
+                    android:gravity="center"
+                    android:textColor="@color/alltext"
+                    android:textSize="20dp" />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/cibtn_saveticket"
+                android:layout_below="@+id/cctv_date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_background"
+                android:text="Search"
+                android:textColor="@android:color/white"
+                android:padding="10dp"
+                android:layout_margin="15dp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/mainColor1"
+    tools:context=".Activity.FaQs">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="20dp"
+        android:text="FAQS"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:background="@color/upColor"
+        android:textColor="@android:color/holo_blue_dark"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:textAllCaps="false"
+            android:background="@color/mainColor1"
+            android:textColor="@android:color/darker_gray"
+            android:text=" 2996 Reviews
+
+    Site Reviews
+    Product Reviews
+
+K Karin L.
+Verified Buyer
+5 star rating
+02/01/20
+Very quick, very good
+Order, one minute later in my mailbox, perfect!
+On Bookaway
+share ' Share Review by Karin L. on 1 Feb 2020
+Was this review helpful?
+0
+0
+K Kim H.
+Verified Buyer
+5 star rating
+02/01/20
+For your information I have
+For your information I have been cheated by this VIP bus company
+On Bookaway
+share ' Share Review by Kim H. on 1 Feb 2020
+Was this review helpful?
+0
+0
+J Jessica N.
+Verified Buyer
+5 star rating
+02/01/20
+Limo minivan
+Best way to Travel when you're going far. Much space, Nice interior and fast trip.
+On Bookaway
+share ' Share Review by Jessica N. on 1 Feb 2020
+Was this review helpful?
+0
+0
+S Samir Y.
+Verified Buyer
+5 star rating
+01/31/20
+Good service
+Nothing much to say, the trip back from Pattaya to Bangkok was much faster than Bangkok to Pattaya and easier to find the station.
+On Bookaway
+share ' Share Review by Samir Y. on 31 Jan 2020
+Was this review helpful?
+0
+0
+P Pier G.
+Verified Buyer
+5 star rating
+01/31/20
+Perfect service
+Perfect service
+On Bookaway
+share ' Share Review by Pier G. on 31 Jan 2020
+Was this review helpful?
+0
+0
+S Simone K.
+Verified Buyer
+5 star rating
+01/31/20
+Smooth service
+Cheap hotel pick up really helped.
+On Bookaway
+share ' Share Review by Simone K. on 31 Jan 2020
+Was this review helpful?
+0
+0
+M Michel G.
+Verified Buyer
+4 star rating
+01/31/20
+Transfer Halong cruise port to Hanoi
+The ride was fast up to the outskirts of Hanoi. There we had to transfer to an other car, but it took about half an hour waiting to put passengers together for the same destination in the city of Hanoi.
+On Bookaway
+share ' Share Review by Michel G. on 31 Jan 2020
+Was this review helpful?
+0
+0
+R Roselyn A.
+Verified Buyer
+4 star rating
+01/31/20
+Smooth driving
+Driving is very safe driver. Trip was OK. But d pick up to d hotel is late. I was staying at Azalea and driver came 30mins late.
+On Bookaway
+share ' Share Review by Roselyn A. on 31 Jan 2020
+Was this review helpful?
+0
+0
+J Janine N.
+Verified Buyer
+3 star rating
+01/31/20
+Easy to book but weird
+Easy to book but weird ticket. Also the buses are super cold and personal not the loveliest. But over all good and we arrived one hour early!
+On Bookaway
+share ' Share Review by Janine N. on 31 Jan 2020
+Was this review helpful?
+0
+0
+F Farah M.
+Verified Buyer
+3 star rating
+01/30/20
+We didn't get what was said
+The bus to Phnom Penh was good, AC and reclining seats. The bus from Phnom Penh to Siem Riep was not as said. Instead of a van, we were in a local bus, no AC, barely only leg room and uncomfortable seats.
+On Bookaway
+share ' Share Review by Farah M. on 30 Jan 2020
+Was this review helpful?
+0
+0 "
+            />
+
+    </ScrollView>
+</LinearLayout>

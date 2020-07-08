@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mainColor1"
+    android:orientation="vertical"
+    tools:context=".Activity.BusRoutes">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/mainColor2"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingLeft="5dp"
+            android:paddingRight="45dp"
+
+            >
+
+            <Button
+                android:id="@+id/back_arrow1"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:background="@drawable/ic_arrow_back_black_24dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="20dp"
+                android:text="Search Bus Routes"
+                android:textColor="@android:color/white"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/mainColor1"
+            android:padding="20dp">
+
+            <Spinner
+                android:id="@+id/brsp_type"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/edit_background"
+
+                android:gravity="center"
+                android:padding="10dp"
+
+
+                />
+
+            <Spinner
+                android:id="@+id/brsp_passenger"
+                android:layout_width="140dp"
+                android:layout_height="50dp"
+                android:layout_alignParentRight="true"
+                android:layout_margin="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_weight="1"
+                android:background="@drawable/edit_background"
+
+                android:gravity="center"
+
+                android:padding="10dp" />
+
+            <TextView
+                android:id="@+id/brtv_from"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/brsp_passenger"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="15dp"
+                android:text="From"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+
+                android:textStyle="bold"
+
+                />
+
+            <Spinner
+                android:id="@+id/brsp_from"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_below="@+id/brtv_from"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/edit_background"
+
+                android:gravity="center"
+                android:padding="10dp" />
+
+            <TextView
+                android:id="@+id/brtv_To"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/brsp_from"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="15dp"
+                android:text="To"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:textStyle="bold"
+
+                />
+
+            <Spinner
+                android:id="@+id/brsp_To"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_below="@+id/brtv_To"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/edit_background"
+
+                android:gravity="center"
+
+                android:padding="10dp" />
+
+            <TextView
+                android:id="@+id/brtv_person"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/brsp_To"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="15dp"
+                android:text="No Of Person"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:textStyle="bold"
+
+                />
+
+            <Spinner
+                android:id="@+id/brsp_person"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_below="@+id/brtv_person"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/edit_background"
+
+                android:gravity="center"
+
+
+                android:padding="10dp" />
+
+            <TextView
+                android:id="@+id/brtv_date"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_below="@+id/brsp_person"
+                android:layout_margin="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1"
+                android:background="@drawable/edit_background"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="Current Date!(m-d-YYYY)"
+                android:textSize="20dp"
+                android:textColor="@color/alltext"
+
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/brbtn_searchcarway"
+                android:layout_below="@+id/brtv_date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_background"
+                android:text="Search"
+                android:textColor="@android:color/white"
+                android:padding="10dp"
+                android:layout_margin="10dp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</RelativeLayout>

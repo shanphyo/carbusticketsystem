@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/loginback"
+    android:gravity="center"
+    tools:context=".Activity.RegisterPage"
+    android:padding="30dp">
+
+    <TextView
+        android:id="@+id/rtxt_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textColor="@android:color/white"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_margin="12dp"
+        />
+
+    <EditText
+        android:id="@+id/let_username"
+        android:hint="Email"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:maxLines="1"
+        android:background="@drawable/edit_background"
+        android:drawableLeft="@drawable/username_icon_size"
+        android:drawablePadding="8dp"
+        android:padding="15dp"
+        android:layout_margin="10dp"
+        android:textColor="@color/alltext"
+        />
+
+    <EditText
+        android:id="@+id/let_password"
+        android:hint="Password"
+        android:textColor="@color/alltext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:maxLines="1"
+        android:background="@drawable/edit_background"
+        android:drawableLeft="@drawable/password_icon_size"
+        android:drawablePadding="8dp"
+        android:padding="15dp"
+        android:layout_margin="10dp"
+        />
+
+    <TextView
+        android:id="@+id/login_forgot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Forgot Password?"
+        android:gravity="end"
+        android:paddingRight="18dp"
+        android:textColor="@android:color/white"
+        android:textSize="13sp"
+        />
+
+    <Button
+        android:id="@+id/lbtn_Login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_background"
+        android:text="Sign In"
+        android:textColor="@color/alltext"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="If you do not have an account,"
+            android:background="@android:color/transparent"
+            android:gravity="center"
+            android:textColor="@color/alltext"
+            android:padding="10dp"
+            android:layout_marginTop="10dp"
+            />
+
+        <TextView
+            android:id="@+id/ltv_toregister"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:text="Sign Up !"
+            android:textColor="@android:color/holo_blue_bright"
+            android:layout_marginTop="10dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

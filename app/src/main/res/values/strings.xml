@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">TicketSystem</string>
+    <string name="drawer_open">Drawer Close</string>
+    <string name="drawer_close">Drawer Open</string>
+    <!-- <string name="drawer_open">Drawer Close</string>
+    <string name="drawer_close">Drawer Open</string>-->
+</resources>

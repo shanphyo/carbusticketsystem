@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#163B60</color>
+    <color name="colorPrimaryDark">#0A0A0A</color>
+    <color name="colorAccent">#1D2733</color>
+    <color name="cartype1">#070202</color>
+    <color name="mainColor1">#1D2733</color>
+    <color name="mainColor2">#243448</color>
+    <color name="upColor">#163B60</color>
+    <color name="alltext">#F1EFEF</color>
+    <!--<color name="cartype1">#070202</color>
+    <color name="mainColor1">#1D2733</color>
+    <color name="mainColor2">#243448</color>
+    <color name="upColor">#163B60</color>-->
+</resources>

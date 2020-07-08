@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mainColor1"
+    tools:context=".Activity.EditProfile"
+    >
+
+    <RelativeLayout
+        android:id="@+id/h_editprofile1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        >
+
+        <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/epiv_profile"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_gravity="center_vertical"
+            android:clickable="true"
+            android:src="@drawable/profile"
+            app:civ_border_color="@android:color/darker_gray"
+            app:civ_border_width="5dp"
+            android:layout_centerInParent="true"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:drawableLeft="@drawable/editlogo"
+            android:drawablePadding="5dp"
+            android:text="Edit"
+            android:textAllCaps="false"
+            android:textColor="@android:color/black"
+            android:textSize="15sp"
+            android:textStyle="italic" />
+    </RelativeLayout>
+
+
+    <EditText
+        android:id="@+id/eptv_name"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_weight="0.5"
+        android:inputType="text"
+        android:hint="Full name"
+        android:textColor="@color/white"
+        android:maxLines="1"
+        android:background="@drawable/edit_background"
+        android:layout_below="@+id/h_editprofile1"
+        android:layout_margin="20dp"
+        android:padding="10dp"
+        />
+    <EditText
+        android:id="@+id/eptv_username"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_weight="0.5"
+        android:inputType="text"
+        android:hint="Full name"
+        android:textColor="@color/white"
+        android:layout_margin="20dp"
+        android:maxLines="1"
+        android:background="@drawable/edit_background"
+        android:layout_below="@+id/eptv_name"
+        android:padding="10dp"
+        />
+
+    <CheckBox
+        android:id="@+id/epr_changepass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Change Password"
+        android:textSize="20dp"
+        android:textColor="#1565C0"
+        android:layout_below="@id/eptv_username"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="100dp"
+        />
+
+    <EditText
+        android:id="@+id/eptv_oldpassword"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_weight="0.5"
+        android:inputType="text"
+        android:hint="Old Password"
+        android:maxLines="1"
+        android:background="@drawable/edit_background"
+        android:layout_margin="20dp"
+        android:padding="10dp"
+        android:layout_below="@id/epr_changepass"
+        android:textColor="@color/alltext"
+        android:visibility="gone"
+
+        />
+    <EditText
+        android:id="@+id/eptv_newpassword"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_weight="0.5"
+        android:inputType="text"
+        android:hint="new password"
+        android:textColor="@color/white"
+        android:maxLines="1"
+        android:background="@drawable/edit_background"
+        android:layout_margin="20dp"
+        android:padding="10dp"
+        android:layout_below="@id/eptv_oldpassword"
+        android:visibility="gone"
+        />
+    <Button
+        android:id="@+id/epbtn_save"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/btn_background"
+        android:text="Save"
+        android:textColor="@color/cartype1"
+        android:layout_below="@id/eptv_newpassword"
+        android:layout_margin="20dp"
+        />
+
+</RelativeLayout>

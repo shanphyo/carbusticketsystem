@@ -1,0 +1,47 @@
+
+<resources>
+    <string name="app_name1">Spinner</string>
+    <string name="select">Choose a Car Type</string>
+
+    <string name="button_label">Submit</string>
+    <string-array name="choosecar">
+       <item>First Class - (2+1)</item>
+        <item>Super Seat - (2+2)</item>
+
+
+
+    </string-array>
+    <string-array name="chooseway" >
+        <item>Choose Destination</item>
+        <item>Yangon</item>
+        <item>Mandalay</item>
+        <item>Taunggyi</item>
+        <item>Bagan</item>
+        <item>Naypyitaw</item>
+    </string-array>
+    <string-array name="type">
+        <item>Type</item>
+        <item>Forenginer</item>
+        <item>Local</item>
+    </string-array>
+    <string-array name="passenger">
+        <item>Passenger</item>
+        <item>Male</item>
+        <item>Female</item>
+        <item>Monk</item>
+        <item>Group</item>
+    </string-array>
+    <string-array name="person" >
+        <item>number</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+</resources>
